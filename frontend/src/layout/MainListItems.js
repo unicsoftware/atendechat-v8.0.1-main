@@ -250,9 +250,9 @@ const MainListItems = ({ collapsed, drawerClose }) => {
     location.pathname.startsWith("/contact-lists") ||
     location.pathname.startsWith("/campaigns-config");
 
-  const isFlowbuilderRouteActive = 
+  const isFlowbuilderRouteActive =
     location.pathname.startsWith("/phrase-lists")
-    location.pathname.startsWith("/flowbuilders")
+  location.pathname.startsWith("/flowbuilders")
 
   useEffect(() => {
     if (location.pathname.startsWith("/tickets")) {

@@ -134,8 +134,8 @@ const App = () => {
     console.log("|=========== handleSaveSetting ==========|")
     console.log("APP START")
     console.log("|========================================|")
-   
-    
+
+
     getPublicSetting("primaryColorLight")
       .then((color) => {
         setPrimaryColorLight(color || "#6e31ef");

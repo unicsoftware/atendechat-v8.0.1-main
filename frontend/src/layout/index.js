@@ -310,7 +310,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
     getSetting();
   });
 
-  
+
 
   useEffect(() => {
     // if (localStorage.getItem("public-token") === null) {
